@@ -16,6 +16,11 @@
 	    background-color: rgb(255, 255, 240);
 	    color: blue;
         }
+        .vtxt {
+        width: 10px;
+        word-wrap: break-word;
+        }
+
     </style>
 </head>
 <body>
@@ -24,7 +29,7 @@
     <table>
         <thead>
             <tr>
-                <th rowspan="2">День недели</th>
+                <th rowspan="2"></th>
                 <th rowspan="2">Время</th>
                 <th colspan="2">2 курс</th>
             </tr>
@@ -35,7 +40,7 @@
         </thead>
         <tbody>
             <tr>
-                <td rowspan="3">Понедельник</td>
+                <td rowspan="3"><p class="vtxt">Понедельник</p></td>
                 <td>9:00 – 11:00</td>
                 <td><a href="Shifr.html#bd">Базы данных</a><br> Иванов И.И.<br><a href="BD.html#bd"> 412</td>
                 <td><a href="Shifr.html#cg">Компьютерная графика</a><br> Петров П.П.<br><a href="CG.html#cg"> 414</td>
@@ -51,7 +56,7 @@
                 <td><a href="Shifr.html#cs">Компьютерные сети</a><br> Сидоров С.С.<br><a href="CS.html#cs"> 508</td>
             </tr>
             <tr>
-		<td rowspan="3">Вторник</td>
+		<td rowspan="3"><p class="vtxt">Вторник</p></td>
                 <td>15:30 – 17:30</td>
                 <td><a href="Shifr.html#a">Алгоритмизация</a><br> Дмитриев Д.Д.<br><a href="A.html#a"> 202</td>
                 <td><a href="Shifr.html#p">Проектирование</a><br> Сергеенко С.С.<br><a href="P.html#p"> 412</td>
